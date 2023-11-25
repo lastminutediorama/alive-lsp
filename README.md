@@ -96,7 +96,7 @@ note that `alive.lsp.startCommand` could also be the one used before in the REPL
         "sbcl",
         "--noinform",
         "--eval",
-        "ql:quickload \"alive-lsp\")",
+        "(ql:quickload \"alive-lsp\")",
         "--eval",
         "(alive/server::start :port 8006)"
     ]
